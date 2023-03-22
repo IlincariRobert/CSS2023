@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+:root{
+    --primary-color:  #302AE6;
+    --secondary-color:#536390;
+    --font-color: #fff;
+    --heading-color: #292922;
+}
+[data-theme="dark"]{
+    --primary-color: #9a97f3;
+    --seconday-color:#818cab;
+    --font-color:#e1e1ff;
+    --bg-color:#161625;
+    --heading-color: #818cab;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: calc(1rem + 0.25vh);
+}
+h1{
+    color:var(--heading-color);
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}

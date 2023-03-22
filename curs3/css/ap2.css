@@ -1,0 +1,60 @@
+#elementToAnimate {
+    position: relative;
+    animation: yourAnimation 5s linear normal none;
+    animation-name: yourAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+@keyframes yourAnimation {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(4);
+    }
+    20% {
+        transform: translate(50px) rotate(90deg) scale(1);
+    }
+    35% {
+        transform: translate(50px, 50px) rotate(0deg) scale(1);
+    }
+    40% {
+        transform: translate(150px, 50px) rotate(-90deg) scale(1);
+    }
+    45% {
+        transform: translate(150px, 0) rotate(90deg) scale(1);
+    }
+    60% {
+        transform: translate(350px, 0) rotate(0deg) scale(1);
+    }
+    65% {
+        transform: translate(350px, 50px) rotate(0deg) scale(1);
+    }
+    80% {
+        transform: translate(550px, 50px) rotate(0deg) scale(1);
+    }
+    85% {
+        transform: translate(550px, 0) rotate(0deg) scale(1);
+    }
+    95% {
+        transform: translate(650px, 0) rotate(0deg) scale(1);
+    }
+    100% {
+        transform: translate(900px, 0) rotate(0deg) scale(1);
+    }
+}
+#demogame {   background-image: url("https://imageio.forbes.com/blogs-images/startswithabang/files/2020/04/opo9601c-1200x947.jpg");
+    width: 100%;
+    max-width: 1600px;
+    height: 100vh;
+    margin: auto;
+    background-size: cover;
+}
+#targetElement {
+    color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    transform-origin: center center;
+}

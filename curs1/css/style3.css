@@ -1,0 +1,21 @@
+div, section{
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid #87CEEB;
+    border-radius: 12px;
+}
+section > article > p{
+    font-weight: bold;
+}
+section > article  p{
+    font-style: italic;
+}
+
+
+
+div p{
+    color:#25383C ;
+}
+section + p{
+    color:#728C00 ;
+}

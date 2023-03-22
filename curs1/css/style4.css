@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto ;
+}
+div{
+    font-style: italic;
+    margin: 25px;
+    padding: 15px;
+    border:15px solid red;
+    background-color: purple;
+}
+div  div{
+    background-color: aqua;
+    color: red;
+    margin: 0px;
+    padding: 25px;
+}
+div div div{
+    background-color: brown;
+    color: black;
+}
